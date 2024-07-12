@@ -37,4 +37,4 @@ def Two(h,p,cmd):
     data = json.loads(r.text)
     print(data['tools_results'].replace(";","\n"),len(data['tools_results']))
 if __name__ == '__main__':
-    Two('x.x.x.x','8888','ls /* -al|ps')
+    Two('192.168.1.1','80','ls /* -al|ps')
